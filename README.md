@@ -21,6 +21,8 @@ We do _not_ want your credentials to be stored in git. After pulling this `start
 
 Afterwards, we can prevent the file from being included in your solution by adding the file to our `.gitignore` file.
 
+Moses: also run `source set_env.sh` to set the values of your environment variable using the set_env.sh script.
+
 ### 1. Database
 Create a PostgreSQL database either locally or on AWS RDS. The database is used to store the application's metadata.
 
