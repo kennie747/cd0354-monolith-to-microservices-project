@@ -41,8 +41,8 @@ jobs:
           context: ./udagram-frontend
           file: udagram-frontend/Dockerfile
           push: true
-          #tags: ${{ secrets.DOCKER_HUB_USERNAME }}/udagram-frontend:latest
-          tags: udagram-frontend:latest
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/udagram-frontend:latest
+          #tags: udagram-frontend:latest
           
   
   build-udagram-api-user:
@@ -70,8 +70,8 @@ jobs:
           context: ./udagram-api-user
           file: udagram-api-user/Dockerfile
           push: true
-          #tags: ${{ secrets.DOCKER_HUB_USERNAME }}/udagram-api-user:latest
-          tags: udagram-api-user:latest
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/udagram-api-user:latest
+          #tags: udagram-api-user:latest
 
 
 
@@ -100,8 +100,8 @@ jobs:
           context: ./udagram-api-feed
           file: udagram-api-feed/Dockerfile
           push: true
-          #tags: ${{ secrets.DOCKER_HUB_USERNAME }}/udagram-api-feed:latest
-          tags: udagram-api-feed:latest
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/udagram-api-feed:latest
+          #tags: udagram-api-feed:latest
 
 
 
@@ -130,6 +130,6 @@ jobs:
           context: ./udagram-reverseproxy
           file: udagram-reverseproxy/Dockerfile
           push: true
-          #tags: ${{ secrets.DOCKER_HUB_USERNAME }}/udagram-reverseproxy:latest
-          tags: udagram-reverseproxy:latest
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/udagram-reverseproxy:latest
+          #tags: udagram-reverseproxy:latest
 
